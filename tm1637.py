@@ -211,3 +211,4 @@ def LCD_NUMBER(scrap1):
         else:
           display.show("   "+str(scrap1))
 
+LCD_NUMBER(99)
