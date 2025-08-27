@@ -196,7 +196,7 @@ class TM1637Decimal(TM1637):
         return segments
 
 def LCD_NUMBER(scrap1):
-    display = TM1637(clk=Pin(8), dio=Pin(9))
+    display = TM1637(clk=Pin(10), dio=Pin(11))
     display.show("    ")
     if int(scrap1) >= 1000 :
        display.show(scrap1)
